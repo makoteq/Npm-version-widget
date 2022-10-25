@@ -1,6 +1,6 @@
 
 const label = (version,name) => {
-  return `${version}`;
+  return `<rect>${version}</rect>`;
 };
 
 module.exports = label;
